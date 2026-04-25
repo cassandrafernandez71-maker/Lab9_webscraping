@@ -1,0 +1,16 @@
+Software,Creator,Initial_release,Software_license,Open_source,Platform,Written_in,Interface,OpenMP_support,OpenCL_support,CUDA_support,ROCm_support,Automatic_differentiation,Has_pretrained_models,Recurrent_nets,Convolutional_nets,RBM/DBNs,Parallel_execution(multi_node),Actively_developed
+BigDL,Jason Dai (Intel),2016,Apache 2.0,Yes,Apache Spark,Scala,"Scala, Python",,,No,No,,Yes,Yes,Yes,,,Yes
+Caffe,Berkeley Vision and Learning Center,2013,BSD,Yes,"Linux, macOS, Windows",C++,"Python, MATLAB, C++",Yes,Under development,Yes,No,Yes,Yes,Yes,Yes,No,?,No
+Chainer,Preferred Networks,2015,BSD,Yes,"Linux, macOS",Python,Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No
+Deeplearning4j,Skymind engineering team; Deeplearning4j community; originally Adam Gibson,2014,Apache 2.0,Yes,"Linux, macOS, Windows, Android (Cross-platform)","C++, Java","Java, Scala, Clojure, Python (Keras), Kotlin",Yes,No,Yes,No,Computational Graph,Yes,Yes,Yes,Yes,Yes,Yes
+DeepSpeed,Microsoft,2019,Apache 2.0,Yes,"Linux, macOS, Windows","Python, C++, CUDA",Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+Dlib,Davis King,2002,Boost Software License,Yes,Cross-platform,C++,"C++, Python",Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes
+Fastai,fast.ai,2018,Apache 2.0,Yes,"Linux, macOS, Windows","Python, CUDA",Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+Flux,Mike Innes,2017,MIT,Yes,"Linux, macOS, Windows (Cross-platform)",Julia,Julia,,,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+Horovod,Uber Technologies,2017,Apache 2.0,Yes,"Linux, macOS, Windows","Python, C++, CUDA",Python,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+Intel Data Analytics Acceleration Library,Intel,2015,Apache 2.0,Yes,"Linux, macOS, Windows on Intel CPU","C++, Python, Java","C++, Python, Java",Yes,No,No,No,Yes,No,,Yes,,Yes,Yes
+Intel Math Kernel Library 2017  and later,Intel,2017,Proprietary,No,"Linux, macOS, Windows on Intel CPU","C/C++, DPC++, Fortran",C,Yes,No,No,No,Yes,No,Yes,Yes,,No,Yes
+Google JAX,Google,2018,Apache 2.0,Yes,"Linux, macOS, Windows",Python,Python,,,Only on Linux,No,Yes,No,,,,Yes,Yes
+Keras,François Chollet,2015,MIT,Yes,"Linux, macOS, Windows",Python,"Python, R",Only if using Theano as backend,"Can use Theano, Tensorflow or PlaidML as backends",Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+MATLAB + Deep Learning Toolbox (formerly Neural Network Toolbox),MathWorks,1992,Proprietary,No,"Linux, macOS, Windows","C, C++, Java, MATLAB",MATLAB,No,No,Train with Parallel Computing Toolbox and generate CUDA code with GPU Coder,No,Yes,Yes,Yes,Yes,Yes,With Parallel Computing Toolbox,Yes
+Microsoft Cognitive Toolkit (CNTK),Microsoft Research,2016,MIT,Yes,"Windows, Linux (macOS via Docker on roadmap)",C++,"Python (Keras), C++, Command line, BrainScript (.NET on roadmap)",Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No
